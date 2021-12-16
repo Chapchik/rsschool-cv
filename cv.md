@@ -1,5 +1,10 @@
 # Dmytro Chernukha
 
+## About me:
+* I am Junior Front-end Developer with financial education
+* I'm looking for interesting job in IT
+* My hobbies - football, table tennis and snooker
+
 ## Contacts:
  * Phone: +380956231038
  * E-mail: chapchik@icloud.com
