@@ -1,3 +1,6 @@
 # rsschool-cv
 **Markdown CV**
-https://your-github-account.github.io/rsschool-cv/cv
+https://chapchik.github.io/rsschool-cv/cv
+
+**HTML, CSS & Git Basics**
+https://chapchik.github.io/rsschool-cv/
