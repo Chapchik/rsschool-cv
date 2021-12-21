@@ -1,0 +1,240 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.wrapper {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+nav ul li { 
+  display: inline;
+  text-decoration: none;
+  padding-right: 2%;
+}
+
+nav ul li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+nav ul li a:hover {
+  color: darkgoldenrod;
+  transition: 0.5s;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title {
+  width: 70%;
+  margin-top: 8%;
+}
+
+.name {
+  text-align: center;
+}
+
+.name-text {
+  font-weight: 500;
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+.vacation-text {
+  margin-top: 1%;
+  font-size: 24px;
+  margin-bottom: 13.2%;
+}
+
+.img img{
+  display: block;
+  width: 60%;
+  position: relative;
+  left: 20%;
+  border-radius: 5px;
+}
+
+.grey {
+  background-color: #1F1F1F;
+  padding: 1% 0;
+}
+
+.title {
+  font-size: 28px;
+  margin-left: 2%;
+  position: relative;
+  color: darkgoldenrod;
+}
+
+.title::after {
+  content: '';
+  width: 98%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  top: 150%;
+  left: 0;
+}
+
+.text {
+  font-size: 18px;
+  letter-spacing: .5px;
+  margin: 0;
+  padding: 1% 2% 0;
+  line-height: 28px;
+}
+
+.education li {
+  margin-left: 3%;
+}
+
+.projects-inner {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+  margin-left: 2.5%;
+}
+
+.projects img {
+  display: block;
+  width: 95%;
+}
+
+aside {
+  width: 30%;
+}
+
+.dark {
+  background-color: #111111;
+}
+
+.contacts {
+  margin-top: 8.2%;
+  padding-top: 2%;
+}
+
+.contacts a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+}
+
+.contacts a:hover {
+  transition: 0.5s;
+  color: darkgoldenrod;
+}
+
+.hard-skills .title {
+  margin-top: 0;
+  padding-top: 3.5%;
+}
+
+.hard-skills p+p {
+  padding-bottom: 3%;
+  position: relative;
+}
+
+.hard-skills p+p::before {
+  content: '';
+  width: 80%;
+  height: 5px;
+  background-color: white;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.hard-skills p+p::after {
+  content: '';
+  height: 5px;
+  background-color: darkgoldenrod;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+
+.html5::after {
+  width: 50%;
+} 
+
+.css3::after {
+  width: 50%;
+} 
+
+.git::after {
+  width: 30%;
+} 
+
+.js::after {
+  width: 30%;
+} 
+
+.vscode::after {
+  width: 60%;
+} 
+
+.soft-skills .title {
+  margin-top: 0;
+  padding-top: 3%;
+}
+
+.languages {
+  height: 41.36%;
+}
+.languages .title {
+  margin-top: 0;
+  padding-top: 3%;
+}
+
+.languages ul {
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
+.experience li {
+  margin-left: 3%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: #1F1F1F;
+  font-size: 24px;
+  padding: 0 2%;
+}
+
+.github {
+  width: 8%;
+}
+
+.github img {
+  width: 100%;
+}
+
+.rsschool img {
+  min-width: 80px;
+  width: 20%;
+}
+

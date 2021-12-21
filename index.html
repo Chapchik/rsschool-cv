@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dmytro Chernukha</title>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <link href="https://fonts.googleapis.com/css2?family=Corinthia&family=Roboto:ital,wght@0,500;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <header class="header" id="header">
+    <div class="wrapper">
+      <nav class="header__nav">
+        <ul>
+          <li><a href="#about-me">About me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#projects">My projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#code-example">Code example</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="wrapper">
+    <main>
+      <section class="main-title">
+
+        <section class="name">
+          <div class="name-text">Dmytro Chernukha</div>
+          <div class="vacation-text">Front-End Developer</div>
+        </section>
+
+        <section class="about-me grey" id="about-me">
+          <p class="title">About me</p>
+          <p class="text">I am a graduate of Kyiv National Economic University. My specialty is corporate finance. Now I
+            am a beginner Front-End developer. I’m looking for interesting job in IT</p>
+          <p class="text">My hobbies - football, table tennis and snooker</p>
+        </section>
+
+        <section class="education grey" id="education">
+          <p class="title">Education</p>
+          <p class="text">Kyiv National Economic University named after Vadym Hetman</p>
+          <ul class="text">
+            <li class="text">Bachelor degree (Program Subject Area “Finance, Banking and Insurance”) - 2016-2019</li>
+            <li class="text">Master degree (Program Subject Area “Financial management and controlling”) - 2020-2022
+            </li>
+          </ul>
+        </section>
+
+        <section class="projects grey" id="projects">
+          <p class="title">Projects</p>
+          <div class="projects-inner">
+            <a href="https://rolling-scopes-school.github.io/chapchik-JSFE2021Q3/Museum-dom/">
+              <img src="images/Museum.png" alt="Museum">
+            </a>
+            <a href="https://chapchik.github.io/law-company-website/">
+              <img src="images/project__example.png" alt="Law company">
+            </a>
+          </div>
+        </section>
+
+        <section class="experience grey" id="experience">
+          <p class="title">Experience</p>
+          <p class="text">Rolling Scopes School</p>
+          <ul class="text">
+            <li class="text">Trainee Front-End Developer - 2021</li>
+          </ul>
+          <p class="text">Parimatch Tech Academy</p>
+          <ul class="text">
+            <li class="text">Trainee Front-End Developer - 2021</li>
+          </ul>
+        </section>
+
+        <section class="code-example grey" id="code-example">
+          <p class="title">Code example</p>
+          <div class="code">
+            <pre><code class="javascript">
+    let sampleActivityNumber = Number(sampleActivity);
+      if (typeof sampleActivity !== 'string'
+          || sampleActivityNumber >= 9000
+          || sampleActivityNumber <= 0
+          || sampleActivityNumber === 15.1
+          || Boolean(sampleActivityNumber) === false) {
+              return false;
+              }
+
+      let k = 0.693 / HALF_LIFE_PERIOD;
+      let t;
+
+      t = Math.log((MODERN_ACTIVITY / sampleActivityNumber)) / k;
+      return Math.ceil(t)</code></pre>
+          </div>
+        </section>
+      </section>
+
+      <aside class="aside">
+        <div class="img">
+          <img src="images/photo.JPG" alt="My photo">
+        </div>
+
+        <section class="contacts dark" id="contacts">
+          <p class="title">Contacts</p>
+          <p class="text"><a href="tel:380956231038">+380956231038</a></p>
+          <p class="text"><a href="mailto:chapchik@icloud.com">chapchik@icloud.com</a> </p>
+          <p class="text"><a href="tg://resolve?domain=@chapchik">@chapchik</a></p>
+          <p class="text">Kyiv, Ukraine</p>
+        </section>
+
+        <section class="hard-skills dark" id="skills">
+          <p class="title">Hard skills</p>
+          <p class="text html5">HTML5</p>
+          <p class="text css3">CSS3</p>
+          <p class="text git">GIT (GitHub)</p>
+          <p class="text js">JavaScript</p>
+          <p class="text vscode">VSCode</p>
+        </section>
+
+        <section class="soft-skills dark" id="soft-skills">
+          <p class="title">Soft skills</p>
+          <p class="text">Purposeful</p>
+          <p class="text">Fast learner</p>
+          <p class="text">Communicative</p>
+          <p class="text">Creative</p>
+        </section>
+
+        <section class="languages dark" id="languages">
+          <p class="title">Languages</p>
+          <ul class="text">
+            <li class="text">English - Pre-Inermediate (A2)</li>
+            <li class="text">Ukrainian - Native (C2)</li>
+            <li class="text">Russian - Native (C2)</li>
+          </ul>
+        </section>
+      </aside>
+
+    </main>
+
+    <footer class="footer">
+      <div class="year">2021</div>
+      <div class="github"><a href="https://github.com/Chapchik"><img src="images/GitHub.jpg" alt="GitHub"></a></div>
+      <div class="rsschool"><a href="https://rs.school/"><img src="images/rs_school_js.svg" alt="rsschool"></a></div>
+    </footer>
+
+  </div>
+</body>
+
+</html>
