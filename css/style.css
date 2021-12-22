@@ -29,9 +29,9 @@ nav ul li {
 }
 
 nav ul li a {
-  font-size: 24px;
+  font-size: 20px;
   text-decoration: none;
-  color: white;
+  color: grey;
   transition: 0.5s;
 }
 
@@ -50,6 +50,10 @@ main {
   margin-top: 8%;
 }
 
+.main-title-heading {
+  display: none;
+}
+
 .name {
   text-align: center;
 }
@@ -58,6 +62,7 @@ main {
   font-weight: 500;
   font-size: 56px;
   letter-spacing: 2px;
+  margin: 0;
 }
 
 .vacation-text {
@@ -133,6 +138,11 @@ aside {
   padding-top: 2%;
 }
 
+.contacts ul {
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
 .contacts a {
   text-decoration: none;
   color: white;
@@ -149,12 +159,17 @@ aside {
   padding-top: 3.5%;
 }
 
-.hard-skills p+p {
+.hard-skills ul {
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
+.hard-skills li {
   padding-bottom: 3%;
   position: relative;
 }
 
-.hard-skills p+p::before {
+.hard-skills li::before {
   content: '';
   width: 80%;
   height: 5px;
@@ -164,7 +179,7 @@ aside {
   left: 10%;
 }
 
-.hard-skills p+p::after {
+.hard-skills li::after {
   content: '';
   height: 5px;
   background-color: darkgoldenrod;
@@ -198,8 +213,13 @@ aside {
   padding-top: 3%;
 }
 
+.soft-skills ul {
+  margin-top: 8%;
+  margin-left: 4%;
+}
+
 .languages {
-  height: 41.36%;
+  height: 39.65%;
 }
 .languages .title {
   margin-top: 0;
@@ -221,12 +241,12 @@ footer {
   align-items: center;
   background-color: white;
   color: #1F1F1F;
-  font-size: 24px;
+  font-size: 20px;
   padding: 0 2%;
 }
 
 .github {
-  width: 8%;
+  width: 6%;
 }
 
 .github img {
@@ -237,4 +257,3 @@ footer {
   min-width: 80px;
   width: 20%;
 }
-
